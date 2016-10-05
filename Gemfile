@@ -24,7 +24,7 @@ platforms :ruby do
   end
 
   group :active_record do
-    gem "paperclip"
+    gem "paperclip", ">= 2.8.0"
     gem "carrierwave"
     gem "mini_magick"
   end
